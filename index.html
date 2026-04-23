@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Assistant</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f0f1a;
+      color: #e0e0ff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #a78bfa, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #a0a0c0;
+      max-width: 500px;
+      line-height: 1.7;
+      margin-bottom: 40px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #7c3aed, #3b82f6);
+      color: white;
+      padding: 16px 40px;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.2s, opacity 0.2s;
+      margin-bottom: 12px;
+    }
+
+    .download-btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.92;
+    }
+
+    .note {
+      font-size: 0.85rem;
+      color: #606080;
+      margin-top: 12px;
+    }
+
+    .features {
+      display: flex;
+      gap: 24px;
+      margin: 48px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .feature {
+      background: #1a1a2e;
+      border: 1px solid #2a2a4a;
+      border-radius: 12px;
+      padding: 24px;
+      width: 180px;
+    }
+
+    .feature .icon { font-size: 2rem; margin-bottom: 10px; }
+    .feature h3 { font-size: 0.95rem; color: #c0c0e0; }
+  </style>
+</head>
+<body>
+
+  <h1>🤖 AI Assistant</h1>
+  <p>
+    A fully offline AI roleplay chatbot that runs on your PC.
+    No internet needed after setup. Your data stays private.
+  </p>
+
+  <a class="download-btn"
+     href="https://github.com/dinethdddd643-max/assistant/releases/latest/download/AIAssistant_Setup.exe">
+    ⬇ Download for Windows
+  </a>
+
+  <div class="note">Windows 10/11 · Free · v2.0.0</div>
+
+  <div class="features">
+    <div class="feature">
+      <div class="icon">🧠</div>
+      <h3>Local AI Models</h3>
+    </div>
+    <div class="feature">
+      <div class="icon">🔒</div>
+      <h3>100% Offline</h3>
+    </div>
+    <div class="feature">
+      <div class="icon">🎭</div>
+      <h3>Roleplay Chat</h3>
+    </div>
+    <div class="feature">
+      <div class="icon">⚡</div>
+      <h3>GPU Accelerated</h3>
+    </div>
+  </div>
+
+</body>
+</html>
